@@ -1,3 +1,6 @@
+//These are helpful functions to filter objects by Keys.
+//Insights given by Tulio Faria from https://www.devpleno.com/
+
 
 const filterObject = (object, keys) => {
   const mapKeyToObject = key => {
@@ -14,7 +17,7 @@ const filterObject = (object, keys) => {
 
 const filterObjects = keys => obj => filterObject(obj, keys);
 
-//Testing the fucntions
+//Testing the functions
 const keys = ['name', 'documentId']
 
 const sandro = {
